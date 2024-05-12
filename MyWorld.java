@@ -20,5 +20,8 @@ public class MyWorld extends World
         
         Person person = new Person();
         addObject(person, 100, 100);
+        
+        Orange orange = new Orange();
+        addObject(orange, 600, 100);
     }
 }
